@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+body {
+	background: url(../images/adminlogin.png) no-repeat 0 0;
+	background-size: cover;
+	font-family:"微软雅黑";
+}
+
+
+
+.Wrapper {
+	width: 100%;
+	
+}
+
+.admin_login_logo {
+	width: 295px;
+	height: 144px;
+	text-align: center;
+	font-size: 32px;
+	margin: 0 auto;
+	color:#fff;
+}
+
+.admin_login_logo_ych {
+	width: 285px;
+	height: 189px;
+	background: url(img/admin_login_logo_ych.png) no-repeat 0 0;
+	margin: 0 auto;
+}
+
+.admin_login_wrap {
+	background: url(../images/admin_login_wrap.png) no-repeat 0 0;
+	height: 286px;
+	position: relative;
+	z-index: 2;
+}
+
+
+.admin_login_name,.admin_login_pwd {
+	width: 200px;
+	height: 33px;
+	margin-left: 120px;
+	margin-top: 107px;
+	line-height: 33px;
+	font-size: 14px;
+	font-family: Microsoft JHenghei;
+	border: none;
+	background-color: #fbfbfb;
+	color: #5c5c5c;
+}
+
+.admin_login_pwd {
+	margin-top: 10px;
+}
+
+
+
+.s_code {
+	top: 5px;
+	right: 41px;
+	position: absolute;
+	display: inline-block;
+}
+
+.admin_login_btn {
+	background: url(../images/admin_login_btn.png) no-repeat 0 0;
+	width: 300px;
+	height: 45px;
+	border: none;
+	cursor: pointer;
+	margin: 0px auto 0;
+	display: block;
+}
+
+.admin_login_btn:hover {
+	opacity: 0.8;
+}
+
+.admin_login_main {
+	width: 380px;
+	height: 430px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -215px 0 0 -190px;
+}
+
+#Bottom {
+	text-align: center;
+	color: #999;
+	border: none;
+	position: absolute;
+	width: 100%;
+	bottom: 12px;
+}
+
+.tips_wrap {
+	top: 30px;
+	position: relative;
+}
+
+.tips {
+	top: -23px;
+	left: 284px;
+	
+	display: block;
+	font-size: 12px;
+	position: absolute;
+}
+
+.tips a{
+	color: #f55250;
+
+}
+
+.tips a:hover{
+		text-decoration: underline;
+		color:#009CE5;
+}
+
+.link_pwd {
+	color: #f55250;
+	font-size: 12px;
+	margin-left: 148px;
+}
+
+.ck{
+	top: -24px;
+	position: relative;
+	left:12%;
+}

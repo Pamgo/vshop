@@ -1,0 +1,43 @@
+#org {
+	background-color: white;
+	width: 980px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+#show-list {
+	cursor: pointer;
+}
+
+/* bootstrap overrides */
+.alert-message {
+	margin: 2px 0;
+}
+
+.topbar {
+	position: absolute;
+}
+
+/* Custom chart styling */
+.jOrgChart {
+	margin: 0px auto;
+	width: 970px; 
+	margin-top : 5px;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* Custom node styling */
+.jOrgChart .node {
+	font-size: 12px;
+	padding: 5px;
+	height: 90px;
+	width: 98px;
+}
+
+.node p {
+	font-family: tahoma;
+	font-size: 10px;
+	line-height: 11px;
+	padding: 2px;
+}
